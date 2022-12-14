@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "ea-casc-dev-controller"
 description: "CloudBees CI configuration bundle for the ea-casc dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/ea-casc/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
